@@ -37,6 +37,9 @@ function render(variables = {}) {
           <h1>${variables.name ? variables.name : ""} ${
     variables.lastName ? variables.lastName : ""
   }</h1>
+
+//add
+
           <h2>${variables.role ? variables.role : ""}</h2>
           <h3>${variables.city ? variables.city : ""} ${
     variables.country ? variables.country : ""
@@ -71,7 +74,7 @@ window.onload = function() {
     avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "",
-    // social media usernames
+    // social media usernamesgi
     twitter: null,
     github: null,
     linkedin: null,
