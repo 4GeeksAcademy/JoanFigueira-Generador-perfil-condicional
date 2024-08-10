@@ -38,8 +38,6 @@ function render(variables = {}) {
     variables.lastName ? variables.lastName : ""
   }</h1>
 
-//add
-
           <h2>${variables.role ? variables.role : ""}</h2>
           <h3>${variables.city ? variables.city : ""} ${
     variables.country ? variables.country : ""
