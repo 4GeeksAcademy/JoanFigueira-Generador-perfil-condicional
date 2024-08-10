@@ -4,7 +4,7 @@ import "../style/index.css";
 /**
  *  EDIT ONLY INSIDE THIS RENDER FUNCTION
  *  This function is called every time the user changes types or changes any input
- * 
+ *  This function is called
     {
         includeCover: true, // if includeCover is true the algorithm should show the cover image
         background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da", // this is the image's url that will be used as a background for the profile cover
@@ -62,7 +62,7 @@ function render(variables = {}) {
 }
 
 /**
- * Don't change any of the lines below, here is where we do the logic for the dropdowns
+ * Don't change any of the lines below, here is where we do the logic for the dropdowns.....
  */
 window.onload = function() {
   window.variables = {
